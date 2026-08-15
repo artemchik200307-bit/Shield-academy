@@ -1,28 +1,23 @@
-# S.H.I.E.L.D. ACADEMY — YEAR 1 FINAL V13
-365 days / 12 months.
+# S.H.I.E.L.D. Academy — Year 1 Detailed V14
 
-Daily core:
-1. Physical preparation
-2. English
-3. German
-4. Observation & memory
-5. Analytical & critical thinking
-6. Psychology & self-control
-7. Intelligence / information literacy
-8. Navigation & field awareness
-9. Communication & briefing
-10. Leadership & planning
-11. Cybersecurity & digital hygiene
-12. Agent Log / AAR
+This version turns each academic discipline into a concrete daily syllabus.
 
-English, German, observation/memory, analytical thinking, psychology, navigation,
-communication, intelligence, leadership, and cybersecurity have 12 distinct
-monthly levels. Physical training uses a varied year-long periodization.
+## Languages
+English and German now have a 52-week sequence. Each day states:
+- exact weekly lesson/topic;
+- grammar point;
+- vocabulary set;
+- official resource entry point;
+- daily listening/speaking/reading/writing task;
+- mini-test.
 
-News workflow is intentionally unchanged. Career Track and medical/first-aid
-course are intentionally excluded as requested.
+English official resources: British Council LearnEnglish A1/A2 Grammar, Vocabulary, Starting Out and A1 Skills.
+German official resources: Goethe-Institut Deutsch üben and Goethe A1 exam training.
 
-Cybersecurity is defensive and limited to personal devices/accounts or safe
-training environments; no unauthorized access or offensive intrusion.
+## Other disciplines
+Observation, analysis, psychology, navigation, communication, leadership and cybersecurity
+have a 12-stage progression with a 7-day microcycle, so each day has a distinct action,
+measurement and review.
 
-The program contains recurring exams, safe simulations and final graduation.
+News workflow remains unchanged. Career Track and medical/first-aid training remain excluded.
+Cybersecurity is defensive and limited to owned/authorized devices or safe training environments.

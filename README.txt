@@ -1,7 +1,23 @@
-S.H.I.E.L.D. Academy — V5
+S.H.I.E.L.D. ACADEMY — YEAR 1 FINAL
+365-day curriculum, final audited build.
 
-В этой версии исправлено обновление PWA: service worker больше не кэширует сам себя, а регистрация использует cache-busting ?v=5.
+Included:
+- periodized physical training with one workout per day and weekly recovery
+- English and German daily lessons
+- observation & memory
+- analytical/critical thinking
+- psychology & self-control
+- existing news/intelligence protocol unchanged
+- navigation & field awareness
+- communication & briefing
+- defensive cybersecurity & digital hygiene
+- leadership & planning
+- Agent Log/AAR
+- exams and safe field simulations
 
-Структура физической подготовки: одна физическая тренировка в день. Турник и брусья встроены внутрь силовой тренировки; бокс и grappling/movement встроены внутрь соответствующих дней.
+Excluded per user request:
+- Career Track
+- medical/first-aid module
+- changes to the news module
 
-Установка: замените содержимое GitHub-репозитория файлами из этого архива. После публикации откройте GitHub Pages в Safari и обновите страницу.
+Cybersecurity exercises are defensive and limited to owned devices/safe labs.

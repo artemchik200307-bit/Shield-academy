@@ -36,5 +36,5 @@ function toggleTimer(){if(!S.timerLeft)S.timerLeft=25*60;S.timerRunning=!S.timer
 function resetTimer(){clearInterval(S.timer);S.timerRunning=false;S.timerLeft=0;updateTimer();renderToday()}
 function updateTimer(){let e=$('#timerText');if(e)e.textContent=fmtTimer(S.timerLeft)}
 $$('.nav button').forEach(b=>b.onclick=()=>{S.tab=b.dataset.tab;render();scrollTo(0,0)});$('#modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
-fetch('data.json').then(r=>r.json()).then(d=>{S.data=d;render()}).catch(e=>{$('#screen').innerHTML='<div class="empty">Не удалось загрузить курс. Открой приложение через веб-сервер/хостинг, а не как отдельный локальный файл.</div>'});
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=5'));
+fetch('data.json?v=7').then(r=>r.json()).then(d=>{S.data=d;render()}).catch(e=>{$('#screen').innerHTML='<div class="empty">Не удалось загрузить курс. Открой приложение через веб-сервер/хостинг, а не как отдельный локальный файл.</div>'});
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=7'));

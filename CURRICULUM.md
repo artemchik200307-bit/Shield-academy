@@ -1,20 +1,17 @@
-# S.H.I.E.L.D. ACADEMY — YEAR 1 V15
-## Step-by-step practical curriculum
+# S.H.I.E.L.D. ACADEMY — YEAR 1 V16
+## COMPLETE CURRICULUM
 
-Every practical block now follows:
-MISSION → PREPARE → EXECUTE → CHECK → RECORD.
+Every daily card answers WHAT / WHERE / HOW / CHECK / RECORD.
 
-The learner should not have to invent what to do. Each day gives the action,
-time/constraints where appropriate, success criterion and what to record.
+52 weekly units × 7-day learning cycle:
+Study → Retrieval → Deepen → Apply → Test → Transfer → Weekly Test/AAR.
 
-Languages add a fixed execution order:
-open resource → study lesson → learn vocabulary → exercises → output → mini-test.
+English and German retain their detailed lesson/word/output progression.
+Physical training has a concrete weekly microcycle: Strength A, Cardio, Mobility,
+Boxing fundamentals (non-contact), Strength B, Conditioning, Recovery/AAR.
 
-Observation, analysis, psychology, navigation, communication, leadership and
-defensive cybersecurity use 12 progressive phases with explicit missions.
+Cybersecurity uses Microsoft Learn for fundamentals, defensive hygiene, and
+PortSwigger Web Security Academy only in its authorized training labs.
 
-Physical training retains the existing safe program, with a clear order,
-progression rule, recording rule and stop conditions.
-
-News workflow is unchanged. Career Track and medical/first-aid training are excluded.
-Cybersecurity remains defensive and limited to owned/authorized devices or safe labs.
+News workflow remains unchanged. Career Track and medical/first-aid training remain excluded.
+No instructions for weapons, covert entry, surveillance of real people, or harming people.

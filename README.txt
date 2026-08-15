@@ -13,3 +13,6 @@ S.H.I.E.L.D. Academy PWA
 После публикации открой адрес в Safari на iPhone → Поделиться → На экран «Домой».
 
 Данные прогресса хранятся локально в браузере устройства. В разделе «Ещё» есть экспорт/импорт JSON-резервной копии.
+
+
+Version 3: progressive pull-up and parallel-bar training added twice weekly, with optional Saturday control tests from phase 4.

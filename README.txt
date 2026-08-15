@@ -1,18 +1,13 @@
-S.H.I.E.L.D. Academy PWA
-======================
+S.H.I.E.L.D. Academy — 180 дней — ONE WORKOUT PER DAY v4
 
-Файлы:
-- index.html — приложение
-- app.js — логика
-- styles.css — оформление
-- data.json — все 180 дней курса
-- manifest.webmanifest — установка на домашний экран
-- sw.js — офлайн-кэш
+ВАЖНО: в этой версии каждый день содержит только ОДНУ физическую секцию.
+Турник/брусья и Combat Sports встроены внутрь этой же тренировки.
 
-Для PWA нужен HTTPS-хостинг. Самый простой вариант: GitHub Pages / Cloudflare Pages / Netlify.
-После публикации открой адрес в Safari на iPhone → Поделиться → На экран «Домой».
-
-Данные прогресса хранятся локально в браузере устройства. В разделе «Ещё» есть экспорт/импорт JSON-резервной копии.
-
-
-Version 3: progressive pull-up and parallel-bar training added twice weekly, with optional Saturday control tests from phase 4.
+Установка в GitHub Pages:
+1. Удали старые файлы из репозитория (или создай новый репозиторий).
+2. Загрузи ВСЕ файлы из этого архива в корень репозитория.
+3. Убедись, что index.html и data.json находятся в корне.
+4. GitHub Pages: Settings -> Pages -> Deploy from branch -> main -> /(root).
+5. На iPhone удали старый ярлык.
+6. Настройки -> Safari -> Дополнительно -> Данные сайтов -> удали данные своего github.io.
+7. Открой GitHub Pages в Safari и снова добавь на экран «Домой».

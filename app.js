@@ -1,4 +1,25 @@
 
+async function ensureFreshBuild(){
+  const BUILD='8';
+  if(!sessionStorage.getItem('academyHardRefreshV8')){
+    sessionStorage.setItem('academyHardRefreshV8','1');
+    try{
+      if('serviceWorker' in navigator){
+        const regs=await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map(r=>r.unregister()));
+      }
+      if(window.caches){
+        const keys=await caches.keys();
+        await Promise.all(keys.map(k=>caches.delete(k)));
+      }
+    }catch(e){}
+    location.reload();
+    return false;
+  }
+  return true;
+}
+
+
 const S={data:null,tab:'today',selectedDay:null,timer:null,timerLeft:0,timerRunning:false};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const store={get:(k,d=null)=>{try{let v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch{return d}},set:(k,v)=>localStorage.setItem(k,JSON.stringify(v))};
@@ -36,5 +57,6 @@ function toggleTimer(){if(!S.timerLeft)S.timerLeft=25*60;S.timerRunning=!S.timer
 function resetTimer(){clearInterval(S.timer);S.timerRunning=false;S.timerLeft=0;updateTimer();renderToday()}
 function updateTimer(){let e=$('#timerText');if(e)e.textContent=fmtTimer(S.timerLeft)}
 $$('.nav button').forEach(b=>b.onclick=()=>{S.tab=b.dataset.tab;render();scrollTo(0,0)});$('#modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
-fetch('data.json?v=7').then(r=>r.json()).then(d=>{S.data=d;render()}).catch(e=>{$('#screen').innerHTML='<div class="empty">Не удалось загрузить курс. Открой приложение через веб-сервер/хостинг, а не как отдельный локальный файл.</div>'});
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=7'));
+fetch('data.json?v=8&build=academy').then(r=>r.json()).then(d=>{S.data=d;render()}).catch(e=>{$('#screen').innerHTML='<div class="empty">Не удалось загрузить курс. Открой приложение через веб-сервер/хостинг, а не как отдельный локальный файл.</div>'});
+
+window.addEventListener('load',()=>{ if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js?v=8&build=academy'); });

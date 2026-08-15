@@ -1,4 +1,4 @@
-const CACHE='academy-v16';
+const CACHE='academy-v19';
 const STATIC=['./styles.css','./icon.svg','./apple-touch-icon.png','./icon-192.png','./icon-512.png'];
 
 self.addEventListener('install',e=>{
